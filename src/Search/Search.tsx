@@ -1,9 +1,9 @@
-import {FormEvent, useState} from 'react';
+import React, {FormEvent, useState} from 'react';
 import stl from './Search.module.css';
 import {ImSearch} from 'react-icons/im';
 import {useHistory} from 'react-router-dom';
 
-export default function Search(){
+export const Search:React.FC = () => {
 	const [searchText,setSearchText] = useState('');
 	const history = useHistory();
 

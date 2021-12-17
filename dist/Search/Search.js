@@ -2,7 +2,7 @@ import { useState } from 'react';
 import stl from './Search.module.css';
 import { ImSearch } from 'react-icons/im';
 import { useHistory } from 'react-router-dom';
-export default function Search() {
+export const Search = () => {
     const [searchText, setSearchText] = useState('');
     const history = useHistory();
     function handleSubmit(ev) {
