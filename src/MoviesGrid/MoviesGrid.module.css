@@ -1,0 +1,13 @@
+.movGrid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 230px);
+	gap: 40px;
+	padding: 30px;
+	justify-content: center;
+}
+
+@media (max-width: 560px){
+	.movGrid{
+		grid-template-columns: 100%;
+	}
+}

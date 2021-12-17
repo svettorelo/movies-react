@@ -1,0 +1,25 @@
+.detContainer{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.column{
+	max-width: 400px;
+	margin: 15px;
+	/*height: auto;*/
+	height: 80%;
+}
+
+.movImg{
+	border-radius: 10px;
+}
+
+.firstP{
+	margin-top: 0;
+}
+
+.movDesc{
+	font-size: 1.3rem;
+	color: whitesmoke;
+}

@@ -1,0 +1,20 @@
+.container {
+  text-align: center;
+}
+
+h1{
+  text-align: left;
+  margin-left: 20px;
+  color: whitesmoke;
+  text-shadow: -2px 2px grey;
+}
+h1:hover{
+  color: grey;
+  text-shadow: -2px 2px whitesmoke;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
